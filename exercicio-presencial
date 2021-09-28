@@ -1,0 +1,14 @@
+//var numeroDeAlunos = window.prompt("Quantidade de alunos presentes: ")
+var numeroDeAlunos = 0
+
+
+for(let i=0; i<=numeroDeAlunos; i++){
+    if (i ==0){
+        console.log("Este número é ZERO")
+
+    } else if(i%2 ==0){
+        console.log("Este número é PAR    " + i)
+    } else{
+        console.log("Este número é ÍMPAR  " + i)
+    }
+}
